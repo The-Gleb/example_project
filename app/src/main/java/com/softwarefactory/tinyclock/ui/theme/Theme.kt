@@ -19,8 +19,8 @@ fun TinyClockTheme(
             val context = LocalContext.current
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
-        darkTheme -> TealDarkColorScheme
-        else -> TealLightColorScheme
+        darkTheme -> GreenDarkColorScheme
+        else -> GreenLightColorScheme
     }
 
     MaterialTheme(

@@ -4,42 +4,45 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.ui.graphics.Color
 
-private val TealPrimaryLight = Color(0xFF006A60)
-private val TealOnPrimaryLight = Color(0xFFFFFFFF)
-private val TealPrimaryContainerLight = Color(0xFF74F8E5)
-private val TealOnPrimaryContainerLight = Color(0xFF00201C)
-private val TealSecondaryLight = Color(0xFF4A635F)
-private val TealOnSecondaryLight = Color(0xFFFFFFFF)
-private val TealBackgroundLight = Color(0xFFFAFDFB)
-private val TealOnBackgroundLight = Color(0xFF191C1B)
+// Fallback Material 3 scheme derived from Material green 600 (#2E7D32) seed.
+// Used on devices without dynamic color support (API < 31 or when disabled).
 
-private val TealPrimaryDark = Color(0xFF53DBC9)
-private val TealOnPrimaryDark = Color(0xFF003731)
-private val TealPrimaryContainerDark = Color(0xFF005048)
-private val TealOnPrimaryContainerDark = Color(0xFF74F8E5)
-private val TealSecondaryDark = Color(0xFFB1CCC6)
-private val TealOnSecondaryDark = Color(0xFF1C3531)
-private val TealBackgroundDark = Color(0xFF191C1B)
-private val TealOnBackgroundDark = Color(0xFFE0E3E1)
+private val GreenPrimaryLight = Color(0xFF006E1C)
+private val GreenOnPrimaryLight = Color(0xFFFFFFFF)
+private val GreenPrimaryContainerLight = Color(0xFF79FF80)
+private val GreenOnPrimaryContainerLight = Color(0xFF002204)
+private val GreenSecondaryLight = Color(0xFF53634D)
+private val GreenOnSecondaryLight = Color(0xFFFFFFFF)
+private val GreenBackgroundLight = Color(0xFFFCFDF6)
+private val GreenOnBackgroundLight = Color(0xFF1A1C18)
 
-val TealLightColorScheme = lightColorScheme(
-    primary = TealPrimaryLight,
-    onPrimary = TealOnPrimaryLight,
-    primaryContainer = TealPrimaryContainerLight,
-    onPrimaryContainer = TealOnPrimaryContainerLight,
-    secondary = TealSecondaryLight,
-    onSecondary = TealOnSecondaryLight,
-    background = TealBackgroundLight,
-    onBackground = TealOnBackgroundLight,
+private val GreenPrimaryDark = Color(0xFF7DDC85)
+private val GreenOnPrimaryDark = Color(0xFF003908)
+private val GreenPrimaryContainerDark = Color(0xFF00531A)
+private val GreenOnPrimaryContainerDark = Color(0xFF95F89D)
+private val GreenSecondaryDark = Color(0xFFBBCBB1)
+private val GreenOnSecondaryDark = Color(0xFF263420)
+private val GreenBackgroundDark = Color(0xFF1A1C18)
+private val GreenOnBackgroundDark = Color(0xFFE2E3DC)
+
+val GreenLightColorScheme = lightColorScheme(
+    primary = GreenPrimaryLight,
+    onPrimary = GreenOnPrimaryLight,
+    primaryContainer = GreenPrimaryContainerLight,
+    onPrimaryContainer = GreenOnPrimaryContainerLight,
+    secondary = GreenSecondaryLight,
+    onSecondary = GreenOnSecondaryLight,
+    background = GreenBackgroundLight,
+    onBackground = GreenOnBackgroundLight,
 )
 
-val TealDarkColorScheme = darkColorScheme(
-    primary = TealPrimaryDark,
-    onPrimary = TealOnPrimaryDark,
-    primaryContainer = TealPrimaryContainerDark,
-    onPrimaryContainer = TealOnPrimaryContainerDark,
-    secondary = TealSecondaryDark,
-    onSecondary = TealOnSecondaryDark,
-    background = TealBackgroundDark,
-    onBackground = TealOnBackgroundDark,
+val GreenDarkColorScheme = darkColorScheme(
+    primary = GreenPrimaryDark,
+    onPrimary = GreenOnPrimaryDark,
+    primaryContainer = GreenPrimaryContainerDark,
+    onPrimaryContainer = GreenOnPrimaryContainerDark,
+    secondary = GreenSecondaryDark,
+    onSecondary = GreenOnSecondaryDark,
+    background = GreenBackgroundDark,
+    onBackground = GreenOnBackgroundDark,
 )
