@@ -1,0 +1,11 @@
+name: Tiny Clock
+slug: tiny-clock
+repo_url: https://github.com/The-Gleb/example_project
+default_branch: main
+workdir: /workspace/projects/tiny-clock
+project_type: android_only
+skeleton_profile: android-only
+android:
+  package_name: com.softwarefactory.tinyclock
+backend:
+  module: github.com/example/tiny-clock
