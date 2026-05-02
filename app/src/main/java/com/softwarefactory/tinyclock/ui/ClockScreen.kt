@@ -24,6 +24,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.softwarefactory.tinyclock.R
@@ -49,7 +50,13 @@ fun ClockScreen(modifier: Modifier = Modifier) {
             color = MaterialTheme.colorScheme.onBackground,
         )
         Spacer(modifier = Modifier.height(40.dp))
-        Button(onClick = { time = LocalTime.now() }) {
+        Button(
+            onClick = { time = LocalTime.now() },
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color(0xFF1976D2),
+                contentColor = Color.White,
+            ),
+        ) {
             Icon(
                 imageVector = Icons.Filled.Refresh,
                 contentDescription = null,
