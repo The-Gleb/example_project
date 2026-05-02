@@ -1,0 +1,11 @@
+name: Example Project 4
+slug: example-project-4
+repo_url: https://github.com/The-Gleb/example_project
+default_branch: main
+workdir: /workspace/projects/example-project-4
+project_type: android_only
+skeleton_profile: android-only
+android:
+  package_name: com.softwarefactory.exampleproject4
+backend:
+  module: github.com/example/example-project-4

@@ -1,0 +1,13 @@
+.gradle/
+build/
+dist/
+.idea/
+local.properties
+*.iml
+*.class
+*.log
+node_modules/
+coverage/
+tmp/
+backend/bin/
+backend/.cache/
