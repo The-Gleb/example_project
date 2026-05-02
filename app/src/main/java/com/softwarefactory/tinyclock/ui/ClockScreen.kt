@@ -53,7 +53,7 @@ fun ClockScreen(modifier: Modifier = Modifier) {
         Button(
             onClick = { time = LocalTime.now() },
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color(0xFF1976D2),
+                containerColor = Color(0xFFD32F2F),
                 contentColor = Color.White,
             ),
         ) {
